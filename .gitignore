@@ -1,0 +1,13 @@
+# Remove pre-loaded models
+*.pt
+
+# Remove Python artifacts
+.venv
+__pycache__/
+.cache
+*.pyc
+data/*
+models/*
+
+# OpenCV
+.DS_Store
